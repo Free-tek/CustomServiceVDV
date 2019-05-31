@@ -1,0 +1,74 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.demo_fingerprint_fips.fragment.UHFUpdataFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/llPath"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/tvPath"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="path"/>
+            <Button
+                android:id="@+id/btSelect"
+                android:text="@string/file_title_sel_file"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_below="@id/llPath"
+            android:id="@+id/radioType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+           <RadioButton
+               android:id="@+id/rbR2000"
+               android:text="@string/title_R2000"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="wrap_content" />
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/rbSTM32"
+                android:text="@string/title_stm32"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+        <Button
+            android:layout_marginTop="50dp"
+            android:id="@+id/btnUpdata"
+            android:text="@string/title_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/radioType"
+            />
+        <Button
+            android:layout_marginTop="100dp"
+            android:id="@+id/btnReadVere"
+            android:text="@string/title_stm32_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/radioType"
+            />
+        <TextView
+            android:text=""
+            android:id="@+id/tvMsg"
+            android:layout_below="@id/btnReadVere"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+</FrameLayout>

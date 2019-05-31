@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "919282138639",
+    "firebase_url": "https://customservicechasisnocheck.firebaseio.com",
+    "project_id": "customservicechasisnocheck",
+    "storage_bucket": "customservicechasisnocheck.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919282138639:android:4965917a9c63341d",
+        "android_client_info": {
+          "package_name": "com.example.customservicechasisnumbercheck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919282138639-fsever3gk7a9bdq2hq51dkn0saaqcekd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.customservicechasisnumbercheck",
+            "certificate_hash": "d07c518462929d160dde042757845ec03133481b"
+          }
+        },
+        {
+          "client_id": "919282138639-72qfa38a93da578p8ltuq2qs3fkt7l31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYWkZbX8DGoQTPieurdc9R0tTMs3EC5k8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "919282138639-72qfa38a93da578p8ltuq2qs3fkt7l31.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

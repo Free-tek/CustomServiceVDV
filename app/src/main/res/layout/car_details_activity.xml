@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v4.widget.Space
+                android:layout_height="match_parent"
+                android:layout_width="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="120dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="NAME"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="150dp"
+                android:text=""
+                android:textSize="14sp"/>
+
+            <android.support.v4.widget.Space
+                android:layout_height="2dp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="45dp"
+                android:background="@android:color/black"/>
+
+
+            <android.support.v4.widget.Space
+                android:layout_height="match_parent"
+                android:layout_width="2dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="120dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:text="CHASIS NO"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/chasisNo"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="150dp"
+                android:text=""
+                android:textSize="14sp"/>
+
+            <android.support.v4.widget.Space
+                android:layout_height="2dp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="95dp"
+                android:background="@android:color/black"/>
+
+
+            <android.support.v4.widget.Space
+                android:layout_height="match_parent"
+                android:layout_width="2dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginLeft="120dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="90dp"
+                android:text="BANK PAID T0"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/bank"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="90dp"
+                android:layout_marginLeft="150dp"
+                android:text=""
+                android:textSize="14sp"/>
+
+            <android.support.v4.widget.Space
+                android:layout_height="2dp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="135dp"
+                android:background="@android:color/black"/>
+
+
+            <android.support.v4.widget.Space
+                android:layout_height="match_parent"
+                android:layout_width="2dp"
+                android:layout_marginTop="130dp"
+                android:layout_marginLeft="120dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="130dp"
+                android:text="TELLER NO"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/teller"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="130dp"
+                android:layout_marginLeft="150dp"
+                android:text=""
+                android:textSize="14sp"/>
+
+            <android.support.v4.widget.Space
+                android:layout_height="2dp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="175dp"
+                android:background="@android:color/black"/>
+
+
+
+            <android.support.v4.widget.Space
+                android:layout_height="match_parent"
+                android:layout_width="2dp"
+                android:layout_marginTop="170dp"
+                android:layout_marginLeft="120dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="170dp"
+                android:text="DATE OF REG"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/date_reg"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="170dp"
+                android:layout_marginLeft="150dp"
+                android:text=""
+                android:textSize="14sp"/>
+
+            <android.support.v4.widget.Space
+                android:layout_height="2dp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="215dp"
+                android:background="@android:color/black"/>
+
+
+            <android.support.v4.widget.Space
+                android:layout_height="match_parent"
+                android:layout_width="2dp"
+                android:layout_marginTop="210dp"
+                android:layout_marginLeft="120dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="210dp"
+                android:text="CAR MAKE"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/car_make"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="210dp"
+                android:layout_marginLeft="150dp"
+                android:text=""
+                android:textSize="14sp"/>
+
+            <android.support.v4.widget.Space
+                android:layout_height="2dp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="255dp"
+                android:background="@android:color/black"/>
+
+
+
+            <android.support.v4.widget.Space
+                android:layout_height="match_parent"
+                android:layout_width="2dp"
+                android:layout_marginTop="250dp"
+                android:layout_marginLeft="120dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="250dp"
+                android:text="CAR COLOR"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/car_color"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="250dp"
+                android:layout_marginLeft="150dp"
+                android:text=""
+                android:textSize="14sp"/>
+
+            <android.support.v4.widget.Space
+                android:layout_height="2dp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="295dp"
+                android:background="@android:color/black"/>
+
+
+            <android.support.v4.widget.Space
+                android:layout_height="match_parent"
+                android:layout_width="2dp"
+                android:layout_marginTop="290dp"
+                android:layout_marginLeft="120dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="290dp"
+                android:text="E.CAPACITY"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/e_capacity"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="290dp"
+                android:layout_marginLeft="150dp"
+                android:text=""
+                android:textSize="14sp"/>
+
+            <android.support.v4.widget.Space
+                android:layout_height="2dp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="335dp"
+                android:background="@android:color/black"/>
+
+            <android.support.v4.widget.Space
+                android:layout_height="match_parent"
+                android:layout_width="2dp"
+                android:layout_marginTop="330dp"
+                android:layout_marginLeft="120dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="330dp"
+                android:text="ENGINE NO"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/e_no"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="330dp"
+                android:layout_marginLeft="150dp"
+                android:text=""
+                android:textSize="14sp"/>
+
+            <android.support.v4.widget.Space
+                android:layout_height="2dp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="375dp"
+                android:background="@android:color/black"/>
+
+
+            <android.support.v4.widget.Space
+                android:layout_height="match_parent"
+                android:layout_width="2dp"
+                android:layout_marginTop="370dp"
+                android:layout_marginLeft="120dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="370dp"
+                android:text="CAR MODEL"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/car_model"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="370dp"
+                android:layout_marginLeft="150dp"
+                android:text=""
+                android:textSize="14sp"/>
+
+            <android.support.v4.widget.Space
+                android:layout_height="2dp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="425dp"
+                android:background="@android:color/black"/>
+
+
+
+            <android.support.v4.widget.Space
+                android:layout_height="match_parent"
+                android:layout_width="2dp"
+                android:layout_marginTop="420dp"
+                android:layout_marginLeft="120dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="420dp"
+                android:text="NEW REG"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/new_reg"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="420dp"
+                android:layout_marginLeft="150dp"
+                android:text=""
+                android:textSize="14sp"/>
+
+            <android.support.v4.widget.Space
+                android:layout_height="2dp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="465dp"
+                android:background="@android:color/black"/>
+
+
+            <android.support.v4.widget.Space
+                android:layout_height="match_parent"
+                android:layout_width="2dp"
+                android:layout_marginTop="460dp"
+                android:layout_marginLeft="120dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="460dp"
+                android:text="OLD REG"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/old_reg"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="460dp"
+                android:layout_marginLeft="150dp"
+                android:text=""
+                android:textSize="14sp"/>
+
+            <android.support.v4.widget.Space
+                android:layout_height="2dp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="505dp"
+                android:background="@android:color/black"/>
+
+
+
+            <android.support.v4.widget.Space
+                android:layout_height="match_parent"
+                android:layout_width="2dp"
+                android:layout_marginTop="500dp"
+                android:layout_marginLeft="120dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="500dp"
+                android:text="V.CATEGORY"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/v_category"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="500dp"
+                android:layout_marginLeft="150dp"
+                android:text=""
+                android:textSize="14sp"/>
+
+            <android.support.v4.widget.Space
+                android:layout_height="2dp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="545dp"
+                android:background="@android:color/black"/>
+
+
+            <android.support.v4.widget.Space
+                android:layout_height="match_parent"
+                android:layout_width="2dp"
+                android:layout_marginTop="540dp"
+                android:layout_marginLeft="120dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="540dp"
+                android:text="V.STATUS"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/v_status"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="540dp"
+                android:layout_marginLeft="150dp"
+                android:text=""
+                android:textSize="14sp"/>
+
+            <android.support.v4.widget.Space
+                android:layout_height="2dp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="585dp"
+                android:background="@android:color/black"/>
+
+
+            <android.support.v4.widget.Space
+                android:layout_height="match_parent"
+                android:layout_width="2dp"
+                android:layout_marginTop="580dp"
+                android:layout_marginLeft="120dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="580dp"
+                android:text="YOM"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/year_manufacture"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="580dp"
+                android:layout_marginLeft="150dp"
+                android:text=""
+                android:textSize="14sp"/>
+
+            <android.support.v4.widget.Space
+                android:layout_height="2dp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="625dp"
+                android:background="@android:color/black"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,198 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.demo_fingerprint_fips.fragment.UHFSetFragment">
+
+     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none">
+         <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+             <LinearLayout
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:paddingLeft="10dp"
+                 android:paddingRight="10dp">
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/tvMode"
+                     android:textSize="16sp" />
+                 <Spinner
+                     android:id="@+id/SpinnerMode"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:entries="@array/arrayMode"
+                     android:gravity="center_horizontal" />
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:padding="5dp">
+                 <Button
+                     android:id="@+id/BtSetFre"
+                     android:layout_width="0dip"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:text="@string/btSetFre"
+                     android:textSize="16sp" />
+                 <Button
+                     android:id="@+id/BtGetFre"
+                     android:layout_width="0dip"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="20dp"
+                     android:layout_weight="1"
+                     android:text="@string/btGetFre"
+                     android:textSize="16sp" />
+             </LinearLayout>
+             <RadioGroup
+                 android:visibility="gone"
+                 android:paddingLeft="10dp"
+                 android:paddingRight="10dp"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal">
+
+                 <RadioButton
+                     android:id="@+id/rbUsHop"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:checked="true"
+                     android:text="@string/title_us_hop" />
+
+                 <RadioButton
+                     android:id="@+id/rbBRA"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:text="@string/title_BRA_hop" />
+
+
+                 <RadioButton
+                     android:id="@+id/rbOtherHop"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:text="@string/title_other_hop" />
+             </RadioGroup>
+             <LinearLayout
+                 android:visibility="gone"
+                 android:paddingLeft="10dp"
+                 android:paddingRight="10dp"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content">
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/tvFreHop" />
+                 <Spinner
+                     android:id="@+id/spFreHop"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:entries="@array/arrayFreHop_us" />
+             </LinearLayout>
+             <LinearLayout
+                 android:visibility="gone"
+                 android:paddingLeft="10dp"
+                 android:paddingRight="10dp"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content">
+
+                 <Button
+                     android:id="@+id/btnSetFreHop"
+                     android:layout_width="0dip"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:text="@string/btSetFreHop" />
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:paddingLeft="10dp"
+                 android:paddingRight="10dp">
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/uhf_title_power"
+                     android:textSize="16sp" />
+
+                 <Spinner
+                     android:id="@+id/spPower"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:entries="@array/arrayPower"
+                     android:gravity="center_horizontal" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/uhf_title_dbm" />
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:padding="5dp">
+
+                 <Button
+                     android:id="@+id/btnSetPower"
+                     android:layout_width="0dip"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:text="@string/uhf_btn_setpower"
+                     android:textSize="16sp" />
+
+                 <Button
+                     android:id="@+id/btnGetPower"
+                     android:layout_width="0dip"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="20dp"
+                     android:layout_weight="1"
+                     android:text="@string/uhf_btn_getpower"
+                     android:textSize="16sp" />
+             </LinearLayout>
+
+
+             <TextView
+                 android:padding="5dp"
+                 android:layout_marginTop="10dp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/title_buzzer" />
+
+             <LinearLayout
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:padding="5dp">
+
+                 <Button
+                     android:id="@+id/btnbeepOpen"
+                     android:layout_width="0dip"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:text="@string/title_buzzer_open"
+                     android:textSize="16sp" />
+
+                 <Button
+                     android:id="@+id/btnbeepClose"
+                     android:layout_width="0dip"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="20dp"
+                     android:layout_weight="1"
+                     android:text="@string/title_buzzer_close"
+                     android:textSize="16sp" />
+             </LinearLayout>
+
+         </LinearLayout>
+     </ScrollView>
+</FrameLayout>

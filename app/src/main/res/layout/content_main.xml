@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activities.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DEVICE BLUETOOTH"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:layout_marginTop="140dp"
+            android:text="" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tvMSG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btn_connect"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:text="@string/Connect"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button1"
+            android:textColor="@android:color/white"/>
+        <Button
+            android:text="@string/title_search"
+            android:id="@+id/btn_search"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button2"
+            android:textColor="@android:color/white"/>
+
+
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
